@@ -1,0 +1,13 @@
+그래서 신뢰도 구간(Confidence Interval)이 왜 유용한가?
+
+-세상에는 parameter를 모르는 것들이 많다(전세계 인구를 대상으로 하는...등등)
+-따라서 real mean에 가장 근접한 것을 sampling을 통해 sample mean을 찾아낸다.
+-여러번 Bootstrapping해서 sample mean을 계속 추출해내면
+  이 sample mean distribution은 Real mean을 평균으로 하는 정규분포를 따른다.
+
+-정규분포를 따른다면, 표준정규분포를 이용해 특정 값이 나올 확률을 구할 수 있다.
+-sample mean은 정확한 real mean이 아니지만, 95% 신뢰도 구간을 특정해서
+  실제 mean이 A ~ B사이의 값에 있을 확률이 95%이다라고는 말할 수 있다.
+
+-그래서 우리는 이러한 신뢰도 구간 X%를 쓰는 것이다. (실제 mean이 여기 있을 확률이
+  95%라고 말하는 것과 같다)
