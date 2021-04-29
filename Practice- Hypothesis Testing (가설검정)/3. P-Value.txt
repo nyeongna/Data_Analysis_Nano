@@ -1,0 +1,40 @@
+P-value
+
+p-value란 과연 무엇일까 ?
+- p-value 의 p는 확률의 probability이다. 즉 확률값이란 소리이다.
+   - 그렇다면 무엇의 확률값일까?
+     - 무엇이 '우연히' 일어날 확률값이다.
+
+--> 즉 '어떤 일'이 '우연히' 일어날 확률이 5%라고 가정한다면,
+     우리는 '어떤 일'이 우연히 일어나지 않고 분명 어떤 인과관계를 통해서 일어났다고 판단할 수 있다.
+
+--> 즉 낮은 p (0.05 or 5%)는 '어떤 일'이 유의미한 인과관계를 통해 일어난 일이고(우연일 확률이 없다고 할 수 있게 해주는 지표이다)
+
+
+예제를 통해 알아보자.
+원래 평균사용시간이 20분이 홈페이지를 개편해서 바꾼 홈페이지가 과연 사용자 시간을 더 오래 늘리는지 알아보고 싶다.
+Null:	     평균사용시간 <= 20분
+Alternative: 평균사용시간 > 20분
+
+바꾼 홈페이지에서 사용자 sampling을 해서
+sample mean = 25분, true std = 2분을 구했다고 치자.
+
+p-value = P(sample mean > 20분 | Null is True) = 즉 Null이 맞다고 가정하고 sample mean이 나올 확률 = p-value이다.
+-만약 p-value가 0.03으로 나온다면(0.05보다 작으므로),sample mean이 25분 넘게 나올 확률이 매우 낮다는 뜻이고,
+  reject Null hypothesis 가능.
+-이런 식으로 Null hypothesis를 reject하는데 쓰일 수 있다.
+
+Conlucsion(결론)
+1. 
+-Null이 true라고 가정하고 실험을 한다.
+-그리고 나온 결과가 5%미만의 확률로 나올법한 데이터일때만 Null을 reject하므로
+  실제로는 'Null이 맞을 확률이 높습니다'란 결과가 나올 확률이 높다.
+
+2. sample size가 클 때!
+sample size가 크면 아주 조그마한 차이라도 statistically significant하게 나타날 수 있음
+-따라서, big data가 많은 요즘은 가설검정을 하지않고 다른 방식을 이용함
+
+3. 5%의 threshold를 가지고 가설검정을 할 때
+-같은 실험을 20번 하면 1번은 null을 reject한다는 뜻이다.
+-내가 한 실험이 이 1/20에 해당할지 누가 아나???
+-이것을 막기 위해 나온 것이 Bonferroni/Tukey Correction이다.

@@ -1,0 +1,20 @@
+가설검정 용어
+1. Null hypothesis
+2. Alternative hypothesis
+
+Type 1 error
+- Say Alternative is true, when Null is actually true
+- worst type of error
+- 위의 방식대로 A가 true라고 했는데 N이 실제로 treu일때
+최악의 상황이 만들어지게 가설을 세우면 된다.
+eg) 새로운 약물이 더 효과가 좋다가 statement면 
+       Type 1 = 신약물이 좋다고 했는데 실제로, 예전이 더 좋으면 최악이므로
+       Null = 예전 약물이 효과가 좋음
+       Alter = 신약물이 효과가 좋음
+       이런식으로 가설을 세운다.
+
+
+가설검정은 parameter에 대해서만 한다 (Not Statistic)
+-왜냐하면 statistic은 우리가 이미 sample을 통해 구한 정확한 정보이기때문
+      
+     

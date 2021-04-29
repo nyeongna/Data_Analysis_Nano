@@ -1,0 +1,11 @@
+실제로 Bootstrapping을 통해서 '신뢰도구간'을 구할 수 있고,
+mean을 찾느냐, Difference in Mean을 찾느냐에 따라
+T-test 와 Qi-test 처럼 old한 방식을 쓸 수도 있다.
+
+즉 New method(Bootstrapping) VS Traditional method(T test, Qi-test) 등으로 나뉜다.
+
+-하지만 실제로 large sample size를 이용한다면
+  두 방법은 거의 동등한 결과를 나타낸다.
+
+- 따라서 모든 경우에 쓸 수 있는 bootstrapping을
+   쓰는 것이 일반적이다!

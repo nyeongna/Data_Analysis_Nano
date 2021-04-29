@@ -1,0 +1,5 @@
+Sampling distribution을 통해 sample mean을 구한다
+
+sample mean이 null에 가까운지 Alternative에 가까운지 비교한다.
+
+더 가까운쪽을 Alternative으로 설정한다 (Alternative가 더 말이 되게끔)

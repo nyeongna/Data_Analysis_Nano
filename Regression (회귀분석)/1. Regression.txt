@@ -1,0 +1,20 @@
+Supervised Learning(지도학습) 의 종류 중 하나이다.
+Linear Regression(일차회귀분석)을 통해 두 변수의 관계를 '분석'하고 y값을 예측할 수 있게된다.
+
+- x: explanatory, independent variable
+- y: predicted, dependent variable
+
+우리는 X의 값에 따라 y의 값이
+1. 어떻게 영향을 받는지
+2. 실제로 x의 값이 y의 결정하는데 상관성(correlation)이 있는지 (NOT cause and effect)
+3. correlation coefficient (or R-squared 값)을 통해 평가 하게 된다.
+4. 이러한 값도출은 파이썬에 맡기면 된다.
+5. 우리는 이러한 값을 '분석' 및 '해석' 할 줄 알아야함.
+6. 하지만 R-squared는 도움이 안되는 값이라고 주장하는 사람도 있다. 따라서 다른 분석 value를 써야할떄도 있다.
+
+CONCLUSION
+- Simple linear regression is about building a line that models the relationship between two quantitative variables.
+- Correlation coefficients are a measure that can inform you about the strength and direction of a linear relationship.
+- The most common way to visualize simple linear regression is using a scatterplot.
+- A line is defined by an intercept and slope, which you found using the statsmodels library in Python.
+- You learned the interpretations for the slope, intercept, and R-squared values.

@@ -1,0 +1,7 @@
+Increasing Sample size, Confidence level ==> Narrowing condifence interval
+
+Decreasing sample size, confidence level ==> Widening Confidence interval
+
+Confidence interval width = Upper bound - Lower bound
+
+Error of Margin = Confidence interval width / 2
