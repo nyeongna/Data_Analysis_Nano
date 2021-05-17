@@ -1,0 +1,19 @@
+Tidy Data are
+1. Every column is a variable.
+2. Every row is an observation.
+3. Every cell is a single value.
+
+Untidy Data are
+1. Column headers are values, not variable names.
+  -즉 column header에는 '값'이 들어오면 안됨.
+  -시간, 날짜 이런게 들어와야하지, 12:00, 14:00이 오면 안됨
+  -투약 여부, 이런게 들어와야하지, Tyrenol, Ibuprofen 이런게 column으로 들어오면 안됨
+2. Multiple variables are stored in one column.
+3. Variables are stored in both rows and columns.
+4. Multiple types of observational units are stored in the same table.
+5. A single observational unit is stored in multiple tables.
+
+
+이유
+-Messy data is usually the result of poor data planning.
+-이 문제는 해결하기가 Dirty Data보다 쉽다! (하나의 위안..ㅎㅎ)

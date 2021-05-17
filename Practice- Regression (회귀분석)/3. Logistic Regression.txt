@@ -1,0 +1,7 @@
+로지스틱 회귀 (Logistic Regression)
+-그냥 linear regression이 quantitative를 계산하는거였다면,
+  로지스틱은 0,1 categorical 한 것을 계산한다!
+
+-즉 '분류'로도 사용할 수 있다 (1과 0) 구분
+   -개/고양이
+   -사람/쥐          등등...

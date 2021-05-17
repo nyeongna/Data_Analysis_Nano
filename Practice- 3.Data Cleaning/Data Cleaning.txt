@@ -1,0 +1,14 @@
+데이터 클리닝 프로세스
+1. Define
+2. Coding
+3. Testing
+순으로 진행된다.
+
+또한
+1. Address Missing issue (quality)
+2. Address Tidiness issue (tidy)
+3. Address Quality issue (quality)
+순으로 진행이된다!!
+
+Regular Expression 다시 연습해보기...!
+-이메일+폰번호 섞여 있는 곳에서, extract하기 어려웠음

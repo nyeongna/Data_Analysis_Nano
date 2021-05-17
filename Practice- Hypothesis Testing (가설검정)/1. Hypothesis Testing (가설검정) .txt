@@ -16,5 +16,3 @@ eg) 새로운 약물이 더 효과가 좋다가 statement면
 
 가설검정은 parameter에 대해서만 한다 (Not Statistic)
 -왜냐하면 statistic은 우리가 이미 sample을 통해 구한 정확한 정보이기때문
-      
-     

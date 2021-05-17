@@ -1,0 +1,24 @@
+분류를 할 때 4가지 결과가 나올 수 있음.
+
+1. True Negative =	예측 False, 실제 False
+2. True Positive = 	예측 True, 실제 True
+3. False Negative = 	예측 False, 실제 True
+4. False True= 	예측 True, 실제 False
+
+쉽게 생각하는 방법
+1. 뒤에 것이 '예측'결과 이고, 앞에 것이 예측이 틀렸으면 False, 맞았으면 True이다.
+
+
+Precision(정밀도)
+-True라고 예측 한 것중 실제로 True의 비율
+-TP / (TP + FT)
+-[TP+FT]는 예측을 True라고 한 것들임.
+
+Recall(재현율)
+-실제로 True인 것중에서 True를 얼마나 잘 예측하냐.
+-TP / (TP+FN)
+-[TP+FN]은 실제로 True인 것들
+
+Accuracy(정확도)
+-모든 결과중 예측이 맞은 것
+-(TP+FT) / (TP+TN+FP+FN)

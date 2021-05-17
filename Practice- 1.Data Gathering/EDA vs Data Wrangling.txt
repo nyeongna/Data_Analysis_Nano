@@ -1,0 +1,9 @@
+EDA와 Data Wrangling은 헷갈리는 주제이다.
+
+Data Wrangling은 
+-Data의 NaN이나 잘못된 column이름 등 데이터를 전반적으로 바르게 고치는 과정이라면,
+-데이터 자체의 오류를 고치거나 하는 등.
+
+EDA는 한 수 더 나아가서
+-Outlier를 발견하고 없애고, 데이터를 정제하고, 없앨건 없애서 Model의 성능을 끌어올린다던가 하는 것이다.
+-즉, Thought process를 거쳐서 데이터를 좀 더 정교하고 모델에 맞게 featuring하는것이다

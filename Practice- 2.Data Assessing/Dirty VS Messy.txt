@@ -1,0 +1,10 @@
+Dirty Data와 Messy Data는 어떻게 다를까!?
+-Dirty는 contents의 문제이고 있으면 안될 게 존재한단 뜻
+  eg) 방 안에 있는 흙은 있으면 안될 존재 = dirty
+  eg) Duplicate or Inaccurate data
+
+-반면 Messy는 Structural 문제이다.
+  eg) 방 바닥에 널부러진 내 옷은 방에 있어야 하는 존재이지만, 있어야 할 자리가 잘못된 경우이다. 즉 옷장에 있어야 하는데 바닥에 있음..
+  eg) Each column = variable, each row = observation
+
+- 간단하게 말해서, 있어야 할 게 있냐 없냐의 문제 !

@@ -1,0 +1,31 @@
+Simple Linear Regrssion이 1개의 x값을 가졌다면,
+Multiple linear Regression은 여러 개의 X값을 가진다(방의 갯수, 방의 크기, 화장실 갯수 등등...)
+
+1. 1개의 특성을 집값과 연관시켜 linear regression계산을 해보면
+이 특성의 p-value가 낮게 나올 수 있다.
+
+2. 하지만 여러 개의 특성을 동시에 집값과 연관시켜 Multiple linear regression 하면
+1개의 특성으로 했을 때 나왔던 p값이 높게 나올 수 있다! (유의하자)
+
+3. 여러 개의 explanatory variables X를 쓸때 우리는 각 각의 x는 y와 관계가 있다고
+    가정하고, 각 각으 ㅣX 끼리는 독립이라고 가정한다.
+
+4. Higher-order term을 추가하려면 그와 관련된 lower-order term도 넣어야함!
+    (많이 추가될수록 해석은 어려워지지만, 예측(머신러닝ㅋ)능력은 올라감
+
+5. Higher-order를 언제 넣어햐 하고 빼야하는지, 넣었을 떄 해석을 어떻게 하는지가
+     중요한 관건 포인트이다!
+
+
+Categorical variable 추가하기
+1. dummy variable형식으로 추가한다.
+2. 3개의 카테고리가 있다면 model에는 1개를 뺀 2개dml dummy만 추가한다
+   -왜? X matrix의 column이 full rank = linearly independent해야
+     파이썬의 결과값이 유의미한 결과값이 된다.
+
+Multicollinearity
+1. X 변수들끼리 상관관계가 크다면, Multi-linear regression하면 문제가 나타날 수 있따.
+ -x variables와 y와의 관계가 꼬일 수 있다.
+  (생각해보면, Occam's Razor라고, 변수가 간단할수록 좋다. Overfitting도 막을 수 있꼬)
+
+2. VIF 지수를 확인해서, 무슨 x 변수를 빼야할 지 수치상으로 확인할 수 있다( 10이상이면 뺀다)
