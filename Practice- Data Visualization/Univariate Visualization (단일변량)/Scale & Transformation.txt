@@ -1,0 +1,7 @@
+데이터 로그화(log)를 통해 Skewed한 분포를 정규분포로 바꿀 수 있다.
+이러면, 치우쳐진 분포도 정규분포처럼 볼 수 있으니 비교 및 분석이 쉬워진다!
+-logarithmic transformation 하려면
+--데이터가 모두 positive여야함
+-Remember: we aren't changing the values taken by the data, only how they're displayed.
+Between integer powers of 10, we don't have clean values for even markings, but we can still get close.
+Setting ticks in cycles of 1-3-10 or 1-2-5-10 are very useful for base-10 log transforms.

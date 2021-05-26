@@ -1,0 +1,9 @@
+Data를 확인하거나 판별(assess) 할 때
+info()등과 같이 summary(descriptive) statistics를 써서 판별할 수도 있지만,
+
+Data Visualization(시각화)를 통해 다시 한 번 확인하는 것이 필수이다!
+1. 왜냐하면 Anscombe's Quartet처럼 mean, std, mode값이 모두 같은
+데이터 셋들을 실제로 그려보면 다르게 분포하는 경우가 있기 떄문이다.
+
+2. 이러한 점들은 직접 그려서 확인하지 않는 이상
+    숫자만 가지고는 확인하기가 어렵다.

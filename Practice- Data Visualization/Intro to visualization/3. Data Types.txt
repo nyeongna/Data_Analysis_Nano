@@ -1,0 +1,23 @@
+Qualitative or categorical types (카테고리 및 범주형)
+1. Nominal data:
+-pure labels without inherent order
+-(no label is intrinsically greater or less than any other)
+-국가, 음식
+
+2. Ordinal data:
+-labels with an intrinsic order or ranking
+-(comparison operations can be made between values, but the magnitude of differences are not be well-defined)
+-랭크(1등, 2등 3등)
+-설문조사 (좋음 평균 나쁨)
+
+Quantitative or numeric types (숫자형)
+3. Interval data:
+-numeric values where absolute differences are meaningful
+-(addition and subtraction operations can be made)
+-온도
+-설문조사 (좋음 평균 나쁨은 1,2,3으로도 계산될수 있으므로 범주 및 숫자 둘다 가능!)
+
+4. Ratio data:
+-numeric values where relative differences are meaningful
+-(multiplication and division operations can be made)
+-무게, 키

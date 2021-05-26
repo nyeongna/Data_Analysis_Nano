@@ -1,0 +1,26 @@
+Bar chart
+-Qualitative(범주형)
+-정말 많이 쓰인다. countplot(barplot) 함수를 잘 이용하여 잘 만들어보자!
+-relative한 것도 표현할 수 있다 (조금의 코드 수정을 통해서 !)
+-plt.hist(), sns.countplot()
+
+Pie chart
+-depiect relative frequncies among categorical
+-사용처가 제한적이다.
+-category가 몇 개 없고 전체 중의 %를 따지고 싶을 때 쓴다.
+-plt.pie
+
+Histogram
+-Continuous Quantitative (숫자형)
+-barplot과 같지만, 범주형이 아닌 숫자형(quantative) x축을 가질 때 씀!! 
+-plt.hist(), sns.distplot()
+-하지만 discrete 한 숫자형은 .hist()나 .countplot()으로도 표현가능!!
+
+
+연습)
+-relative frequency 표현
+-Axis limit을 통해 outlier 빼고 분석하기
+-Scale & Transformation (log)를 통해 데이터 분포를 바꿔서 더 이해가 쉬운 모델(로그정규분포)로 분석하기
+  -결론적으로 식에 로그를 취하는 이유는 큰 수를 작게 만들고, 복잡한 계산을 쉽게 만들고,
+    왜도와 첨도를 줄여서 데이터 분석 시 의미있는 결과를 도출하기 위한 것이다.
+  -비선형관계를 선형으로 만듦.

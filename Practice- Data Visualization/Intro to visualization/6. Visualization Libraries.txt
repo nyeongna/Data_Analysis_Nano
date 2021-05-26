@@ -1,0 +1,16 @@
+Matplotlib:
+-a versatile library for visualizations
+-매우 자세하고 원하는 방향으로 시각화 가능
+-단점으로 코드량이 많다
+
+Seaborn
+-built on top of matplotlib, adds a number of functions to make common statistical visualizations easier to generate.
+-빠르고 쉽게 이쁜 시각화 가능
+-세세한 컨트롤 어렵다
+
+pandas
+-while this library includes some convenient methods for visualizing data that hook into matplotlib
+  we'll mainly be using it for its main purpose as a general tool for working with data.
+-빠르고 쉽게 시각화 가능
+-세세한 컨트롤 어려움
+

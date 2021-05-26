@@ -1,0 +1,8 @@
+It is key that when you build plots you maintain integrity for the underlying data.
+데이터 시각화는 착각 및 속임수를 자칫 불러올 수 있다. 속이지 않는 적절한 데이터 시각화가 필요하다.
+
+
+Lie factor란 것을 이용해 그래프가 얼마나 misleading한지 알 수 있는 수치가 있다.
+-기억이 안나면 찾아보자!
+-실제 % 차이보다 그래프 크기 차이가 더 크다면 misleading할 확률이 높다.
+-Graphical effect / Data effect 의 값이 1보다 크면 distorting, 작으면 hiding the magnitude 이므로 둘다 misleading하다!
